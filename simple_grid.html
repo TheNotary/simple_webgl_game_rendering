@@ -9,6 +9,14 @@
 <script>
 window.onload = main;
 
+
+function start(){
+  // Main game loop...
+  while(true) {
+    main()
+  }
+}
+
 function main() {
   // Get A WebGL context
   var canvas = document.getElementById("canvas");

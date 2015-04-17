@@ -1,0 +1,32 @@
+
+== 0.0.? ==
+- Implement the camera in a physical world
+- Implement an arwing (grey cube) that you can control and is bound within fixed
+parameters of where the camera rail is... note speed boost and slow down
+adjust the distance form the arwing and the camera... so will need a
+'railTether' object rather than using just the camera object. 
+- Implement a thing to shoot at (red cube)
+- Implement shooting (tiny white cubes that collide with red cubes)
+- Implement a basic level loader
+- Implement a camera rail path
+  - Support event points such as 'camera drifts to a cinimatic view of
+	something'
+	- Support triggers as the camera reaches certain distances or points,
+		misc actions can take place
+	- Support multiplayer coop rail paths
+	- Support  multiplayer shared rail path
+	- Support pause button
+	- Support save exact game state and resume from state (helps with networking)
+	- Be mindful to support a server/ client role not far down the road
+- Implement mob flight paths that trigger based on camera rail path triggers 
+- Implement importing cooler models than just shapes via blender
+- Implement networking
+  - Support a server to connect with via node or faye
+	- Support join in mid game to allow for simple d/c recovery
+
+
+== 0.0.1 ==
+- readme 
+- Plan
+- Notes/ references
+
